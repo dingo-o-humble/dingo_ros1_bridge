@@ -1,0 +1,57 @@
+topics:
+  -
+    topic: /battery/status
+    type: sensor_msgs/msg/BatteryState
+    queue_size: 1
+  -
+    topic: /diagnostics
+    type: diagnostic_msgs/msg/DiagnosticArray
+    queue_size: 1
+  -
+    topic: /dingo_velocity_controller/odom
+    type: nav_msgs/msg/Odometry
+    queue_size: 1
+  -
+    topic: /feedback
+    type: puma_motor_msgs/msg/MultiFeedback
+    queue_size: 1
+  -
+    topic: /imu/data_raw
+    type: sensor_msgs/msg/Imu
+    queue_size: 1
+  -
+    topic: /imu/mag
+    type: sensor_msgs/msg/MagneticField
+    queue_size: 1
+  -
+    topic: /joint_states
+    type: sensor_msgs/msg/JointState
+    queue_size: 1
+  -
+    topic: /mcu/aux_input
+    type: std_msgs/msg/UInt8
+    queue_size: 1
+  -
+    topic: /mcu/cmd_fans
+    type: dingo_msgs/msg/Fans
+    queue_size: 1
+  -
+    topic: /mcu/cmd_lights
+    type: dingo_msgs/msg/Lights
+    queue_size: 1
+  -
+    topic: /mcu/status
+    type: dingo_msgs/msg/Status
+    queue_size: 1
+  -
+    topic: /status
+    type: puma_motor_msgs/msg/MultiStatus
+    queue_size: 1
+  -
+    topic: /wifi_connected
+    type: std_msgs/msg/Bool
+    queue_size: 1
+  -
+    topic: /dingo_velocity_controller/cmd_vel
+    type: geometry_msgs/msg/Twist
+    queue_size: 1
