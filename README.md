@@ -36,7 +36,7 @@ dingo-ros2
 
 ### On Remote computer
 ```
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/dingo_velocity_controller/cmd_vel
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
 ## Auto-start (On Dingo)
