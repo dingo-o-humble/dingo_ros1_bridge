@@ -55,3 +55,11 @@ topics:
     topic: /dingo_velocity_controller/cmd_vel
     type: geometry_msgs/msg/Twist
     queue_size: 1
+  -
+    topic: /e_stop
+    type: std_msgs/msg/Bool
+    queue_size: 1
+  -
+    topic: /cmd_vel
+    type: geometry_msgs/msg/Twist
+    queue_size: 1

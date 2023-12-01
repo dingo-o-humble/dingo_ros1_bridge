@@ -1,5 +1,7 @@
 FROM osrf/ros:humble-desktop
-#
+
+# Taken from https://github.com/TommyChangUMD/ros-humble-ros1-bridge-builder
+
 # How to build this docker image:
 #  docker build . -t ros-humble-ros1-bridge-builder
 #
